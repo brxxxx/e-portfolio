@@ -54,7 +54,7 @@ window.PORTFOLIO_DATA = {
     cooperatingTeacher: "Cristy S. Conopio (Cooperating Teacher)",
     tleCoordinator: "Lea S. Resta",
     gradeLevelAssigned: "Grade 10 TLE - FCS Food Service & ICT Specializations",
-    crest: "assets/images/school-crest.svg",
+    crest: "assets/images/pdmhs-logo.png",
     groundsSlideImage: "assets/images/pdmhs-school-grounds-and-building.jpg",
     historySlideImage: "assets/images/pdmhs-history-slide.jpg",
     visionMissionSlideImage: "assets/images/pdmhs-vision-mission-slide.jpg",
@@ -62,7 +62,7 @@ window.PORTFOLIO_DATA = {
     
     // Official School Vision & Mission from PDMHS Slide
     vision: "To produce high school graduates who are God-fearing, morally upright, socially responsible, creative thinker, civic spirited and life skilled- a product of holistic and innovative learning.",
-    mission: "To produce high school graduates who are God-fearing, morally upright, socially responsible, creative thinker, civic spirited and life skilled- a product of holistic and innovative learning.",
+    mission: "To provide world-class, superior, high quality, responsive secondary education to students transforming them to be very prepared to enter higher education and at the same time, responsible, humane and productive citizens.",
     
     // Overarching National DepEd Framework
     depedVision: "We dream of Filipinos who passionately love their country and whose values and competencies enable them to realize their full potential and contribute meaningfully to building the nation. As a learner-centered public institution, the Department of Education continuously improves itself to better serve its stakeholders.",
@@ -142,11 +142,11 @@ window.PORTFOLIO_DATA = {
     { num: "III", title: "About the Teacher (Curriculum Vitae)", anchor: "section-cv", desc: "Comprehensive CV, educational attainment, honors, teaching skills, and pedagogical competencies.", tags: ["Curriculum Vitae", "Credentials"] },
     { num: "IV", title: "Learning Environment (Partner School)", anchor: "section-school", desc: "Partner school profile, DepEd Vision and Mission, institutional history, and interactive facilities tour.", tags: ["DepEd Vision", "School History", "Campus Tour"] },
     { num: "V", title: "Curriculum and Planning", anchor: "section-curriculum", desc: "Core instructional artifacts: Annotated DLL (TS2), Competencies Alignment (TS3), Classroom Management (TS4), DLL (TS5), Lesson Plans (TS6), Instructional Materials (TS6), and Assessments (TS7).", tags: ["TS2", "TS3", "TS4", "TS5", "TS6", "TS7"] },
-    { num: "VI", title: "Professional Development Certificates", anchor: "section-certificates", desc: "High-resolution image gallery of accredited certifications: Professional Orgs (TS9) and LAC / INSET participation (TS10).", tags: ["TS9 (Images)", "TS10 (Images)", "Lightbox Viewer"] },
+    { num: "VI", title: "Professional Development Certificates", anchor: "section-certificates", desc: "Authentic professional development artifacts: National Seminar Reflection & Certificate (TS9) and School-Related Activities Certificate of Participation (TS10).", tags: ["TS9", "TS10", "Original PDF"] },
     { num: "VII", title: "Microteaching", anchor: "section-microteaching", desc: "Formal Evaluation Form (TS12), final demonstration rating, detailed lesson plan, and photographic evidence with reflections.", tags: ["TS12", "DLP Demo", "Observation Form"] },
-    { num: "VIII", title: "Classroom-Based Action Research Proposal", anchor: "section-cbar", desc: "Action Research Data Bank (TS1), full CBAR Manuscript (TS8), and evaluators' rubric comments with commendations.", tags: ["TS1 (Data Bank)", "TS8 (CBAR)", "Panel Rubric"] },
+    { num: "VIII", title: "Classroom-Based Action Research Proposal", anchor: "section-cbar", desc: "Action Research Data Bank (TS1), full 34-page CBAR Manuscript on the Praise and Token System (TS8), and evaluators' appraisal rubrics with composite average of 83/100 (95 & 71).", tags: ["TS1 (Data Bank)", "TS8 (CBAR)", "Appraisal Avg (83/100)"] },
     { num: "IX", title: "Teaching Philosophy", anchor: "section-philosophy", desc: "Personal creed on constructivism, inclusive education, reflective practice (TS11), and audio narrative reflection.", tags: ["TS11", "Philosophy Creed", "Audio Reflection"] },
-    { num: "X", title: "Appendices", anchor: "section-appendices", desc: "Confidential CT Final Evaluation (TS13) sealed transmittal receipt, and Civil Service Daily Time Record (DTR) log.", tags: ["TS13 (Sealed)", "DTR Log", "Attendance Form 48"] }
+    { num: "X", title: "Appendices", anchor: "section-appendices", desc: "Official institutional compliance documents: Certified Civil Service Daily Time Record (DTR / Form 48) and Complete Weekly Mentoring Forms (Sessions 1–5).", tags: ["DTR Logs (3 Pages)", "Mentoring Forms (15 Pages)", "Original PDF"] }
   ],
 
   // Teaching Standards Documents (PDF Placeholders & Interactive Viewer Data)
@@ -296,30 +296,101 @@ window.PORTFOLIO_DATA = {
     },
     "TS1": {
       code: "TS1",
-      title: "Action Research Data Bank & Diagnostic Baseline",
+      title: "Task Sheet No. 1: Action Research Data Bank",
       category: "Classroom-Based Action Research",
-      fileName: "TS1_Action_Research_Data_Bank_Baseline_Scores.pdf",
-      pages: 6,
-      date: "October 2025",
-      summary: "Statistical repository featuring pre-test diagnostic distributions, student survey responses on conceptual misconceptions, and thematic focus-group codings.",
+      fileName: "TS1_Action_Research_Data_Bank.pdf",
+      fileUrl: "assets/documents/TS1_Action_Research_Data_Bank.pdf",
+      pages: 10,
+      date: "November 2026",
+      isOriginalPdf: true,
+      summary: "Task Sheet No. 1: Action Research Data Bank developed by John Brix G. Coronejo, Emmanuel P. Ferrer, and Aliah T. Wales for their study 'The Effectiveness of a Praise and Token System in Reducing Minor Disruptive Behaviors Among Grade 10 Students in Pres. Diosdado Macapagal High School'. Features detailed analytical reviews of 10 related research studies on token economies and comprehensive answers to guide questions on proactive behavioral management.",
       details: {
         domain: "PPST Domain 1: Content Knowledge and Pedagogy",
-        participants: "85 Grade 10 secondary students",
-        keyMetric: "Pre-intervention mean percentage score (MPS): 54.2% -> Post-intervention MPS target: 82.0%"
+        strand: "Strand 1.2: Research-based knowledge and principles of teaching and learning",
+        proponents: "John Brix G. Coronejo, Emmanuel P. Ferrer, Aliah T. Wales (BTVTEICT-CP-4D)",
+        proposalTitle: "The Effectiveness of a 'Praise and Token' System in Reducing Minor Disruptive Behaviors Among Grade 10 Students in Pres. Diosdado Macapagal High School",
+        thematicArea: "Teaching and Learning (Instruction and Learners)",
+        studiesAnalyzed: "10 empirical studies (Taratingan et al., Hudachek, Bio et al., Aljohani, Esi, Alipio, Austria et al., Stueber, Solehudin & Darmayanti, Maggin et al.)",
+        institution: "Technological University of the Philippines - Taguig & Pres. Diosdado Macapagal High School"
       }
     },
     "TS8": {
       code: "TS8",
-      title: "CBAR Manuscript: Project L.I.N.K.",
+      title: "Task Sheet No. 8: Classroom-Based Action Research (CBAR) Manuscript",
       category: "Classroom-Based Action Research",
-      fileName: "TS8_Classroom_Based_Action_Research_Manuscript_Final.pdf",
-      pages: 18,
-      date: "February 2026",
-      summary: "Complete manuscript entitled: 'Project L.I.N.K. (Learning through Interactive Notebooks and Kinetics): Enhancing Conceptual Mastery in Genetics among Grade 10 Students'.",
+      fileName: "TS8_Classroom_Based_Action_Research_Proposal.pdf",
+      fileUrl: "assets/documents/TS8_Classroom_Based_Action_Research_Proposal.pdf",
+      pages: 34,
+      date: "November 2026",
+      isOriginalPdf: true,
+      summary: "Task Sheet No. 8: Complete 34-page Classroom-Based Action Research Proposal entitled 'The Effectiveness of a Praise and Token System in Reducing Minor Disruptive Behaviors Among Grade 10 Students in Pres. Diosdado Macapagal High School' by John Brix G. Coronejo, Emmanuel P. Ferrer, and Aliah T. Wales. Includes Chapter 1 (Introduction, Rationale, Token Economy Currency Design, Timeline), Chapter 2 (Action Research Methods, IPO Model, 5-Second Threshold Rule, Data Gathering & Paired t-Test Analysis, Ethical Considerations, Informed Consent, Principal Request Letter), Appendix A (Custom Classroom Peso Bills: ₱10 to ₱1000 with animal archetypes), and Appendix B (Standardized Behavioral Observation Tally Sheet & Student Feedback Form).",
       details: {
-        domain: "PPST Domain 1 & Domain 4",
-        status: "Approved by Division Research Review Committee",
-        panelScore: "96.5 / 100 (Passed with Distinction)"
+        domain: "PPST Domain 1 & Domain 4: Research-Based Pedagogy & Positive Discipline",
+        proponents: "John Brix G. Coronejo, Emmanuel P. Ferrer, Aliah T. Wales (TUP Taguig)",
+        targetClass: "Grade 10 TLE - Food Service Students (Azalea Section)",
+        cooperatingSchool: "President Diosdado Macapagal High School",
+        keyInnovation: "Classroom Currency Economy coupling Behavior-Specific Praise (BSP) with tiered custom animal bills (₱10, ₱20, ₱50, ₱100, ₱500, ₱1000) and Mystery Pouch challenge",
+        primaryOutcome: "Systematic suppression of minor disruptions (side-talking, inattentiveness, out-of-seat behaviors) through positive reinforcement",
+        evaluatorScore: "Composite Average: 83.0 / 100 ((95 + 71) ÷ 2) • Evaluator 1 (Glenys S. Liwagon): 95 / 100 • Evaluator 2 (Aiza Nhil Alvarez): 71 / 100"
+      }
+    },
+    "CBAR_RUBRIC": {
+      code: "CBAR-RUBRIC",
+      title: "Appraisal Rubrics for Classroom-Based Action Research Proposal",
+      category: "Classroom-Based Action Research",
+      fileName: "CBAR_Appraisal_Rubrics_Evaluators.pdf",
+      fileUrl: "assets/documents/CBAR_Appraisal_Rubrics_Evaluators.pdf",
+      pages: 6,
+      date: "November 6, 2026",
+      isOriginalPdf: true,
+      summary: "Official DepEd Appraisal Rubrics evaluating the CBAR Proposal 'The Effectiveness of a Praise and Token System in Reducing Minor Disruptive Behaviors Among Grade 10 Students in Pres. Diosdado Macapagal High School' by John Brix G. Coronejo, Emmanuel P. Ferrer, and Aliah T. Wales. Features formal signed appraisals by Evaluator 1 (Glenys S. Liwagon: 95/100) and Evaluator 2 (Aiza Nhil Alvarez: 71/100), yielding a final composite average of 83.0 / 100.",
+      details: {
+        compositeAverage: "83.0 / 100 ((95 + 71) ÷ 2)",
+        evaluator1: "Glenys S. Liwagon (Score: 95 / 100) - Date: November 6, 2026",
+        evaluator2: "Aiza Nhil Alvarez (Score: 71 / 100) - Date: November 6, 2026",
+        highestScore: "95 / 100 (Context: 15/15, Intervention: 15/15, Methods: 30/30, Work Plan: 5/5, Cost: 5/5)",
+        institution: "DepEd NCR & TUP Taguig • Pres. Diosdado Macapagal High School"
+      }
+    },
+    "TS9": {
+      code: "TS9",
+      title: "Task Sheet No. 9: Reflection and Certificate of Participation in National Seminars or Conferences",
+      category: "Professional Development",
+      fileName: "TS9_National_Seminar_Certificate_and_Reflection.pdf",
+      fileUrl: "assets/documents/TS9_National_Seminar_Certificate_and_Reflection.pdf",
+      pages: 3,
+      date: "September 8, 2026",
+      isOriginalPdf: true,
+      summary: "Task Sheet No. 9: Complete authentic submission containing the official DepEd-TUP Task Sheet 9 rubrics, in-depth reflection essay on 'Effective Classroom Management That Really Works' by Jasper Prior (iTTi Oaxaca), covering the Spectrum of Disruption, 4:1 positive reinforcement ratio, and 4-step de-escalation protocol, accompanied by the official Certificate of Participation from the International TEFL Training Institute.",
+      details: {
+        domain: "PPST Domain 7: Personal Growth and Professional Development",
+        strand: "Strand 7.3: Professional links with other organizations & continuous learning",
+        eventTitle: "Effective Classroom Management That Really Works",
+        speaker: "Jasper Prior (iTTi Oaxaca)",
+        issuer: "International TEFL Training Institute (iTTi)",
+        location: "Zoom National Webinar",
+        date: "September 8, 2026",
+        keyTakeaways: "Spectrum of Disruption, IES Antecedents & Consequences Framework, 4:1 Positive Reinforcement Ratio, 4-Step De-escalation Protocol, Calm Response Audit."
+      }
+    },
+    "TS10": {
+      code: "TS10",
+      title: "Task Sheet No. 10: Certificate of Participation in School-Related Activities",
+      category: "Professional Development",
+      fileName: "TS10_Certificate_of_Participation.pdf",
+      fileUrl: "assets/documents/TS10_Certificate_of_Participation.pdf",
+      pages: 1,
+      date: "November 28, 2026",
+      isOriginalPdf: true,
+      summary: "Task Sheet No. 10: Official Certificate of Participation awarded to John Brix G. Coronejo by President Diosdado Macapagal High School in fulfillment of Field Study 2, recognizing active participation and valuable assistance in the preparation, coordination, and implementation of school-related activities.",
+      details: {
+        domain: "PPST Domain 7: Personal Growth and Professional Development",
+        strand: "Strand 7.4: Professional reflection and learning to improve practice",
+        cooperatingSchool: "President Diosdado Macapagal High School (Barangay Katuparan, Taguig City)",
+        cooperatingTeacher: "Cristy S. Conopio",
+        preServiceTeacher: "John Brix G. Coronejo (BTVTED-ICT-CP-4A)",
+        citation: "For actively participating and providing valuable assistance during the School-Related Activities at President Diosdado Macapagal High School, in fulfillment of the requirements for Field Study 2.",
+        dateAwarded: "November 28, 2026"
       }
     },
     "TS11": {
@@ -369,112 +440,123 @@ window.PORTFOLIO_DATA = {
         pointsForImprovement: "Consistently monitor inattentive learners, use appropriate cues to regain their focus and provide immediate feedback without unnecessary waiting time."
       }
     },
+    "DEMO_DLP": {
+      code: "DEMO-DLP",
+      title: "Demonstration Daily Lesson Plan (October 21, 2026)",
+      category: "Microteaching Demonstration",
+      fileName: "Demonstration_Detailed_Lesson_Plan.pdf",
+      fileUrl: "assets/documents/Demonstration_Detailed_Lesson_Plan.pdf",
+      pages: 13,
+      date: "October 21, 2026",
+      isOriginalPdf: true,
+      summary: "Official Demonstration Daily Lesson Plan on Alcoholic and Non-Alcoholic Beverages (Focus on Non-Alcoholic Classifications: Stimulating, Refreshing, Nourishing) for Grade 10 Anthurium / Aster at Pres. Diosdado Macapagal High School. Submitted by John Brix G. Coronejo and approved by Cooperating Teacher Cristy S. Conopio, TLE Coordinator Lea S. Resta, and Academic Head Nariza Jane M. Tamundong.",
+      details: {
+        lessonTitle: "Alcoholic and Non-Alcoholic Beverages (Focus on Non-Alcoholic Classifications)",
+        gradeLevel: "Grade 10 - Anthurium / Aster",
+        date: "October 21, 2026",
+        signatories: "Submitted by John Brix G. Coronejo; Approved by Cristy S. Conopio, Lea S. Resta, Nariza Jane M. Tamundong"
+      }
+    },
+    "DEMO_IM": {
+      code: "DEMO-IM",
+      title: "Demonstration Slide Deck: Beverage Service (55 Slides)",
+      category: "Microteaching Demonstration",
+      fileName: "Demonstration_Instructional_Materials_Slide_Deck.pdf",
+      fileUrl: "assets/documents/Demonstration_Instructional_Materials_Slide_Deck.pdf",
+      pages: 55,
+      date: "October 21, 2026",
+      isOriginalPdf: true,
+      summary: "Complete 55-slide instructional presentation for Grade 10 Anthurium Food Service final demonstration: featuring Classroom Rules, Pic-Decode (Coffee, Soda, Milk, Mocktail), Beverage Classifications (Stimulating, Refreshing, Nourishing), 'Raise That Board: The Beverage Showdown!' interactive 5-round gamified activity, SDG 12 & Science integration, 10-item Quick Quiz, and 'Be The Barista' assignment.",
+      details: {
+        slidesCount: "55 Slides",
+        structure: "Routine & Rules, Pic-Decode Motivation, Stimulating / Refreshing / Nourishing Taxonomy, Raise That Board Game (Rounds 1–5), Connect the Dots (SDG 12 & Science), 10-Item Quiz, Signature Drink Card"
+      }
+    },
     "TS13": {
       code: "TS13",
       title: "Cooperating Teacher Confidential Evaluation",
       category: "Appendices",
       fileName: "TS13_CT_Confidential_Evaluation_Receipt.pdf",
       pages: 2,
-      date: "March 2026",
-      summary: "Transmittal verification slip and institutional certificate indicating that the final summative evaluation from the Cooperating Teacher has been securely delivered in a sealed envelope.",
+      date: "November 2026",
+      summary: "Transmittal verification slip and institutional certificate indicating that the final summative evaluation from Cooperating Teacher Cristy S. Conopio has been securely delivered in a sealed envelope to the University Practicum Coordinator.",
       details: {
+        cooperatingTeacher: "Cristy S. Conopio",
+        partnerSchool: "President Diosdado Macapagal High School",
         status: "Sealed & Submitted to University Office of Student Teaching",
         depedProtocol: "Preserved under DepEd Order No. 42 confidential assessment guidelines"
       }
     },
     "DTR": {
       code: "DTR",
-      title: "Civil Service Form 48 - Daily Time Record (360 Hours)",
+      title: "Daily Time Record (DTR / Form 48) — Verified Bundy Logs",
       category: "Appendices",
-      fileName: "DTR_Civil_Service_Form_48_Complete_Signed.pdf",
-      pages: 6,
-      date: "August 2025 - March 2026",
-      summary: "Official Daily Time Record documenting 360 required internship hours in campus instruction, faculty meetings, remediation, and co-curricular programs.",
+      fileName: "DTR_Daily_Time_Record_Signed.pdf",
+      fileUrl: "assets/documents/DTR_Daily_Time_Record_Signed.pdf",
+      pages: 3,
+      date: "September – November 2026",
+      isOriginalPdf: true,
+      summary: "Official Civil Service Form 48 Daily Time Record of John Brix G. Coronejo covering September, October, and November 2026 at President Diosdado Macapagal High School. Verified from official Bundy Card logs by Cooperating Teacher Cristy S. Conopio and certified as to prescribed office hours by Practicum Coordinator Lea S. Resta.",
       details: {
-        totalHoursLogged: "365.5 Hours (Exceeded 360 Hours Requirement)",
-        signatures: "Signed by Cooperating Teacher, Head Teacher III, and School Principal IV"
+        preServiceTeacher: "John Brix G. Coronejo",
+        cooperatingTeacher: "Cristy S. Conopio",
+        coordinator: "Lea S. Resta",
+        partnerSchool: "President Diosdado Macapagal High School",
+        periodCovered: "September, October, and November 2026",
+        recordType: "Civil Service Form No. 48 / Bundy Card Verification",
+        status: "Verified and Signed"
+      }
+    },
+    "MENTORING": {
+      code: "WMF",
+      title: "Weekly Mentoring Forms (Form No. 1 — Sessions 1 to 5 Complete Set)",
+      category: "Appendices",
+      fileName: "Weekly_Mentoring_Forms_Complete_Set.pdf",
+      fileUrl: "assets/documents/Weekly_Mentoring_Forms_Complete_Set.pdf",
+      pages: 15,
+      date: "October – November 2026",
+      isOriginalPdf: true,
+      summary: "Complete chronological 5-session mentoring portfolio (Form No. 1) conducted with Cooperating Teacher Cristy S. Conopio at President Diosdado Macapagal High School. Documents weekly pre-observation conferences, pedagogical strengths, areas for development, actionable suggestions, and mentor appraisal ratings with perfect 20/20 scores across all five sessions.",
+      details: {
+        preServiceTeacher: "John Brix G. Coronejo",
+        cooperatingTeacher: "Cristy S. Conopio",
+        partnerSchool: "President Diosdado Macapagal High School",
+        session1: "October 1, 2026 — Total Score: 20/20 (Rating: Commendable)",
+        session2: "October 8, 2026 — Total Score: 20/20 (Rating: Commendable)",
+        session3: "October 15, 2026 — Total Score: 20/20 (Rating: Commendable)",
+        session4: "October 28, 2026 — Total Score: 20/20 (Rating: Commendable)",
+        session5: "November 4, 2026 — Total Score: 20/20 (Rating: Commendable)",
+        overallStatus: "Complete 15-Page Portfolio • Signed by Cooperating Teacher"
       }
     }
   },
 
-  // Certificates: ALL IMAGE requirement
+  // Authentic Professional Development Artifacts (TS9 & TS10 Original PDFs)
   certificates: [
     {
-      id: "cert-ts9-1",
-      category: "TS9: Professional Development Organizations",
+      id: "cert-ts9",
+      category: "TS9: National Seminar & Professional Development",
       categoryShort: "TS9",
-      title: "National Congress on 21st Century Pedagogical Approaches",
-      issuer: "Philippine Association of Pre-Service Educators (PAPSE)",
-      date: "October 14-16, 2025",
-      hours: "24 CPD Units / Training Hours",
-      certNumber: "PAPSE-NAT-2025-0892",
-      image: "assets/images/cert-ts9-1.svg",
-      description: "24-hour intensive national seminar on integrating Generative AI, personalized feedback loops, and culturally responsive teaching strategies in secondary education.",
+      title: "Effective Classroom Management That Really Works",
+      issuer: "International TEFL Training Institute (iTTi Oaxaca)",
+      date: "September 8, 2026",
+      hours: "National Webinar & Training Session",
+      certNumber: "iTTi-ECM-2026",
+      fileUrl: "assets/documents/TS9_National_Seminar_Certificate_and_Reflection.pdf",
+      description: "National professional development seminar presented by Jasper Prior of iTTi Oaxaca, featuring the Spectrum of Disruption, 4:1 positive reinforcement ratio, and behavioral de-escalation protocol.",
       verified: true
     },
     {
-      id: "cert-ts9-2",
-      category: "TS9: Professional Development Organizations",
-      categoryShort: "TS9",
-      title: "Advanced Course on Differentiated Instruction & Inclusive Classrooms",
-      issuer: "Council of Educators for Inclusive Learning (CEIL)",
-      date: "November 22, 2025",
-      hours: "16 Professional Development Hours",
-      certNumber: "CEIL-INCL-8841-B",
-      image: "assets/images/cert-ts9-2.svg",
-      description: "Comprehensive workshop on universal design for learning (UDL), multimodal instruction, and differentiated assessment for neurodiverse classrooms.",
-      verified: true
-    },
-    {
-      id: "cert-ts9-3",
-      category: "TS9: Professional Development Organizations",
-      categoryShort: "TS9",
-      title: "Regional Pre-Service Teachers Research & Innovation Colloquium",
-      issuer: "Luzon Association of Teacher Education Institutions (LATEI)",
-      date: "January 18, 2026",
-      hours: "Best Paper Presentation Nominee",
-      certNumber: "LATEI-RES-2026-0314",
-      image: "assets/images/cert-ts9-3.svg",
-      description: "Scholarly presentation on action research titled 'Project L.I.N.K.: Enhancing Conceptual Mastery in Science via Inquiry-Based Interactive Learning Kits'.",
-      verified: true
-    },
-    {
-      id: "cert-ts10-1",
-      category: "TS10: LAC Session / School Activity",
+      id: "cert-ts10",
+      category: "TS10: School-Related Activities",
       categoryShort: "TS10",
-      title: "School Learning Action Cell (SLAC) Session No. 4",
-      issuer: "President Diosdado Macapagal High School (PDMHS) • DepEd Division",
-      date: "December 05, 2025",
-      hours: "8 In-Service Training Hours",
-      certNumber: "PDMHS-SLAC-2025-042",
-      image: "assets/images/cert-ts10-1.svg",
-      description: "Collaborative departmental session on formative assessment analytics, item analysis interpretation, and individualized remediation pathways.",
-      verified: true
-    },
-    {
-      id: "cert-ts10-2",
-      category: "TS10: LAC Session / School Activity",
-      categoryShort: "TS10",
-      title: "National Reading Month & Community Literacy Caravan",
-      issuer: "English & Reading Department • Partner School",
-      date: "November 28, 2025",
-      hours: "Community Extension & Co-Curricular",
-      certNumber: "PDMHS-LIT-2025-119",
-      image: "assets/images/cert-ts10-2.svg",
-      description: "Volunteered as literacy storyteller and workshop facilitator for struggling junior high readers under the school's 'Project AKLAT' initiative.",
-      verified: true
-    },
-    {
-      id: "cert-ts10-3",
-      category: "TS10: LAC Session / School Activity",
-      categoryShort: "TS10",
-      title: "Mid-Year In-Service Training for Teachers (INSET 2025-2026)",
-      issuer: "Department of Education • Division of Laguna",
-      date: "January 22-26, 2026",
-      hours: "40 Cumulative INSET Hours",
-      certNumber: "DEPED-INSET-2026-778",
-      image: "assets/images/cert-ts10-3.svg",
-      description: "Participated in 5-day division-wide training on curriculum recalibration, MATATAG curriculum directions, and mental health first aid in secondary schools.",
+      title: "Certificate of Participation in School-Related Activities",
+      issuer: "President Diosdado Macapagal High School (PDMHS)",
+      date: "November 28, 2026",
+      hours: "Field Study 2 Requirement",
+      certNumber: "PDMHS-FS2-2026",
+      fileUrl: "assets/documents/TS10_Certificate_of_Participation.pdf",
+      description: "Official Certificate of Participation in School-Related Activities awarded to John Brix G. Coronejo by President Diosdado Macapagal High School, signed by Cooperating Teacher Cristy S. Conopio.",
       verified: true
     }
   ]

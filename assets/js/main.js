@@ -25,18 +25,51 @@ function initNavigation() {
   const mobileToggle = document.getElementById('mobileMenuToggle');
   const navMenu = document.getElementById('navLinks');
 
+  const topNav = document.querySelector('.top-nav');
+
   if (mobileToggle && navMenu) {
-    mobileToggle.addEventListener('click', () => {
-      const isVisible = navMenu.style.display === 'flex';
-      navMenu.style.display = isVisible ? 'none' : 'flex';
-      navMenu.style.flexDirection = 'column';
-      navMenu.style.position = 'absolute';
-      navMenu.style.top = '100%';
-      navMenu.style.left = '0';
-      navMenu.style.right = '0';
-      navMenu.style.background = 'rgba(24, 14, 7, 0.98)';
-      navMenu.style.padding = '1.5rem';
-      navMenu.style.borderBottom = '1px solid var(--border-medium)';
+    mobileToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = topNav ? topNav.classList.toggle('menu-open') : false;
+      const icon = mobileToggle.querySelector('i');
+      if (icon) {
+        icon.className = isOpen ? 'fas fa-xmark' : 'fas fa-bars';
+      }
+      mobileToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    // Close mobile menu when any nav link is tapped
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (topNav && topNav.classList.contains('menu-open')) {
+          topNav.classList.remove('menu-open');
+          const icon = mobileToggle.querySelector('i');
+          if (icon) icon.className = 'fas fa-bars';
+          mobileToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+
+    // Close when tapping outside the open menu
+    document.addEventListener('click', (e) => {
+      if (topNav && topNav.classList.contains('menu-open')) {
+        if (!topNav.contains(e.target)) {
+          topNav.classList.remove('menu-open');
+          const icon = mobileToggle.querySelector('i');
+          if (icon) icon.className = 'fas fa-bars';
+          mobileToggle.setAttribute('aria-expanded', 'false');
+        }
+      }
+    });
+
+    // Close on ESC key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && topNav && topNav.classList.contains('menu-open')) {
+        topNav.classList.remove('menu-open');
+        const icon = mobileToggle.querySelector('i');
+        if (icon) icon.className = 'fas fa-bars';
+        mobileToggle.setAttribute('aria-expanded', 'false');
+      }
     });
   }
 
@@ -797,15 +830,15 @@ window.openCustomLightbox = function(imageSrc, title, category, description, iss
   const counterEl = document.getElementById('certCounter');
 
   if (imgEl) imgEl.src = imageSrc;
-  if (titleEl) titleEl.textContent = title || "Original Portfolio Slide";
-  if (sidebarTitleEl) sidebarTitleEl.textContent = title || "Original Portfolio Slide";
-  if (catEl) catEl.textContent = category || "Partner School Evidence";
+  if (titleEl) titleEl.textContent = title || "Campus Facility Documentation";
+  if (sidebarTitleEl) sidebarTitleEl.textContent = title || "Campus Facility Documentation";
+  if (catEl) catEl.textContent = category || "Partner School Facilities";
   if (issuerEl) issuerEl.textContent = issuer || "President Diosdado Macapagal High School (PDMHS)";
   if (dateEl) dateEl.textContent = date || "Field Study Portfolio";
-  if (hoursEl) hoursEl.textContent = hours || "Authentic Artifact";
+  if (hoursEl) hoursEl.textContent = hours || "Campus Evidence";
   if (descEl) descEl.textContent = description || "";
-  if (numEl) numEl.textContent = certNum || "PDMHS-ORIGINAL-SLIDE";
-  if (counterEl) counterEl.textContent = "ORIGINAL SLIDE";
+  if (numEl) numEl.textContent = certNum || "PDMHS-FACILITY";
+  if (counterEl) counterEl.textContent = "FACILITY EVIDENCE";
 
   currentCertZoom = 100;
   applyCertZoom();
@@ -881,11 +914,12 @@ function initSearch() {
     { title: "Professional Org Certificates (TS9)", category: "Certificates", url: "#section-certificates", keywords: "ts9 papse ceil latei seminars conferences" },
     { title: "LAC Sessions & School Activity (TS10)", category: "Certificates", url: "#section-certificates", keywords: "ts10 slac inset reading month workshop" },
     { title: "Microteaching Demonstration (TS12)", category: "Microteaching", url: "#section-microteaching", keywords: "ts12 observation rating sheet demo teaching score" },
+    { title: "Demonstration Lesson Plan & Slide Deck", category: "Microteaching", url: "#card-demo-dlp", keywords: "demo dlp 13 pages 55 slides raise that board pic decode food service" },
     { title: "Action Research Data Bank (TS1)", category: "Action Research", url: "#section-cbar", keywords: "ts1 baseline diagnostic survey data bank" },
     { title: "CBAR Manuscript: Project L.I.N.K. (TS8)", category: "Action Research", url: "#section-cbar", keywords: "ts8 manuscript research proposal genetics" },
     { title: "Teaching Philosophy Creed (TS11)", category: "Teaching Philosophy", url: "#section-philosophy", keywords: "ts11 philosophy constructivism learner-centered creed" },
-    { title: "Cooperating Teacher Sealed Evaluation (TS13)", category: "Appendices", url: "#section-appendices", keywords: "ts13 ct confidential sealed envelope transmittal" },
-    { title: "Daily Time Record (DTR Form 48)", category: "Appendices", url: "#section-appendices", keywords: "dtr civil service form 48 360 hours attendance" }
+    { title: "Daily Time Record (DTR Form 48)", category: "Appendices", url: "#section-appendices", keywords: "dtr civil service form 48 bundy card attendance cristy conopio lea resta" },
+    { title: "Weekly Mentoring Forms (Sessions 1–5)", category: "Appendices", url: "#section-appendices", keywords: "mentoring coaching weekly form 1 cristy conopio sessions appraisal" }
   ];
 
   function openSearch() {

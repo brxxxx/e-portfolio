@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d1c10"/>
+      <stop offset="70%" stop-color="#55341c"/>
+      <stop offset="100%" stop-color="#734726"/>
+    </linearGradient>
+    <linearGradient id="bldgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d6b588"/>
+      <stop offset="50%" stop-color="#faebd7"/>
+      <stop offset="100%" stop-color="#caa574"/>
+    </linearGradient>
+  </defs>
+  <!-- Warm Sky -->
+  <rect width="800" height="450" fill="url(#skyGrad)"/>
+  
+  <!-- Distant Trees -->
+  <circle cx="80" cy="280" r="60" fill="#2d421e" opacity="0.7"/>
+  <circle cx="150" cy="270" r="70" fill="#3a5426" opacity="0.7"/>
+  <circle cx="680" cy="270" r="75" fill="#3a5426" opacity="0.7"/>
+  <circle cx="750" cy="285" r="60" fill="#2d421e" opacity="0.7"/>
+
+  <!-- School Main Academic Building (Classic Gabaldon / DepEd Secondary Structure) -->
+  <rect x="180" y="160" width="440" height="150" fill="url(#bldgGrad)" stroke="#422711" stroke-width="4"/>
+  <!-- Roof / Pediment -->
+  <polygon points="160,160 400,85 640,160" fill="#843118" stroke="#3b1509" stroke-width="4"/>
+  <polygon points="340,125 400,95 460,125" fill="#5c200e"/>
+  <!-- Clock / Emblem in Pediment -->
+  <circle cx="400" cy="130" r="16" fill="#f5ede0" stroke="#ffd276" stroke-width="3"/>
+  <line x1="400" y1="130" x2="400" y2="120" stroke="#331805" stroke-width="2"/>
+  <line x1="400" y1="130" x2="408" y2="130" stroke="#331805" stroke-width="2"/>
+
+  <!-- Classical Columns / Pillars -->
+  <g fill="#f2e2cb" stroke="#633e1c" stroke-width="2">
+    <rect x="220" y="160" width="18" height="150"/>
+    <rect x="270" y="160" width="18" height="150"/>
+    <rect x="320" y="160" width="18" height="150"/>
+    <rect x="460" y="160" width="18" height="150"/>
+    <rect x="510" y="160" width="18" height="150"/>
+    <rect x="560" y="160" width="18" height="150"/>
+  </g>
+
+  <!-- Windows -->
+  <g fill="#2e1f14" stroke="#d5b486" stroke-width="2">
+    <rect x="245" y="185" width="20" height="35" rx="3"/>
+    <rect x="295" y="185" width="20" height="35" rx="3"/>
+    <rect x="485" y="185" width="20" height="35" rx="3"/>
+    <rect x="535" y="185" width="20" height="35" rx="3"/>
+    
+    <rect x="245" y="240" width="20" height="35" rx="3"/>
+    <rect x="295" y="240" width="20" height="35" rx="3"/>
+    <rect x="485" y="240" width="20" height="35" rx="3"/>
+    <rect x="535" y="240" width="20" height="35" rx="3"/>
+  </g>
+
+  <!-- Grand Main Entrance -->
+  <rect x="360" y="210" width="80" height="100" fill="#361a09" stroke="#caa574" stroke-width="3"/>
+  <path d="M 360,210 Q 400,185 440,210 Z" fill="#8c5828"/>
+  <line x1="400" y1="210" x2="400" y2="310" stroke="#e0be88" stroke-width="2"/>
+
+  <!-- School Quadrangle Lawn / Grounds -->
+  <polygon points="0,310 800,310 800,450 0,450" fill="#3f2713"/>
+  <polygon points="100,450 700,450 480,310 320,310" fill="#5a391c"/>
+  
+  <!-- Flagpole -->
+  <line x1="130" y1="120" x2="130" y2="340" stroke="#e8ded1" stroke-width="4"/>
+  <polygon points="130,120 185,135 130,150" fill="#2563eb"/>
+  <polygon points="130,135 185,135 130,150" fill="#dc2626"/>
+  <polygon points="130,120 155,135 130,150" fill="#ffffff"/>
+  <circle cx="138" cy="135" r="4" fill="#f59e0b"/>
+
+  <!-- Grounds Caption Banner -->
+  <rect x="240" y="380" width="320" height="42" rx="21" fill="rgba(24, 14, 7, 0.88)" stroke="#d49b38" stroke-width="1.5"/>
+  <text x="400" y="407" text-anchor="middle" font-family="'Times New Roman',serif" font-size="14" font-weight="bold" fill="#fbe8ca" letter-spacing="1">MAIN ACADEMIC BUILDING &amp; QUADRANGLE</text>
+</svg>

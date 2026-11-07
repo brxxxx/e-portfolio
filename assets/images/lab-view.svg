@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="roomGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a0f"/>
+      <stop offset="100%" stop-color="#462c19"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#roomGrad)"/>
+  
+  <!-- Interactive Smart Board / Blackboard -->
+  <rect x="150" y="50" width="500" height="200" rx="8" fill="#1b2a1a" stroke="#8c5828" stroke-width="6"/>
+  <text x="400" y="100" text-anchor="middle" font-family="'Times New Roman', serif" font-size="20" fill="#fdfcf0" font-weight="bold">SCIENCE &amp; MULTIMEDIA LEARNING LAB</text>
+  <text x="400" y="140" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#a3e635">Active Inquiry • Collaborative Stations • DepEd DCP Packages</text>
+  <line x1="220" y1="165" x2="580" y2="165" stroke="#4ade80" stroke-dasharray="8,4" stroke-width="2"/>
+  <text x="400" y="195" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#e2e8f0">TS3 Competency: Scientific Investigation &amp; Hypothesis Testing</text>
+
+  <!-- Lab Workstations -->
+  <rect x="80" y="290" width="280" height="110" rx="6" fill="#331c0e" stroke="#c08a46" stroke-width="3"/>
+  <rect x="440" y="290" width="280" height="110" rx="6" fill="#331c0e" stroke="#c08a46" stroke-width="3"/>
+
+  <!-- Microscope / Equipment Icons -->
+  <circle cx="220" cy="270" r="16" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+  <rect x="214" y="240" width="12" height="30" rx="3" fill="#94a3b8"/>
+  <rect x="200" y="280" width="40" height="10" rx="2" fill="#334155"/>
+
+  <!-- Lab Flask -->
+  <polygon points="570,250 590,285 550,285" fill="#38bdf8" opacity="0.8"/>
+  <rect x="566" y="235" width="8" height="18" fill="#e0f2fe"/>
+
+  <!-- Lab Stools -->
+  <ellipse cx="140" cy="410" rx="30" ry="12" fill="#784720"/>
+  <ellipse cx="300" cy="410" rx="30" ry="12" fill="#784720"/>
+  <ellipse cx="500" cy="410" rx="30" ry="12" fill="#784720"/>
+  <ellipse cx="660" cy="410" rx="30" ry="12" fill="#784720"/>
+
+  <rect x="260" y="380" width="280" height="38" rx="19" fill="rgba(24, 14, 7, 0.9)" stroke="#d49b38" stroke-width="1.5"/>
+  <text x="400" y="404" text-anchor="middle" font-family="'Times New Roman',serif" font-size="13" font-weight="bold" fill="#fbe8ca" letter-spacing="1">SPECIALIZED SCIENCE LABORATORY</text>
+</svg>

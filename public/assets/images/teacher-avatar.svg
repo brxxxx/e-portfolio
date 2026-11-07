@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="avatarBg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#5a381f"/>
+      <stop offset="60%" stop-color="#331c0c"/>
+      <stop offset="100%" stop-color="#180e06"/>
+    </radialGradient>
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd584"/>
+      <stop offset="50%" stop-color="#c58931"/>
+      <stop offset="100%" stop-color="#804e13"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="190" fill="url(#avatarBg)" stroke="url(#goldRing)" stroke-width="8"/>
+  <circle cx="200" cy="200" r="178" fill="none" stroke="#e0aa53" stroke-width="2" opacity="0.4" stroke-dasharray="4,4"/>
+
+  <!-- Teacher Silhouette Artwork -->
+  <!-- Shoulders / Blazer -->
+  <path d="M 90,360 C 100,285 140,250 200,250 C 260,250 300,285 310,360 Z" fill="#241408" stroke="#714723" stroke-width="3"/>
+  <!-- Blouse / Collar -->
+  <polygon points="200,250 170,295 200,340 230,295" fill="#fcf6ec"/>
+  <polygon points="175,250 160,290 185,290" fill="#38200e"/>
+  <polygon points="225,250 240,290 215,290" fill="#38200e"/>
+  <!-- Neck -->
+  <path d="M 175,210 L 175,255 C 185,262 215,262 225,255 L 225,210 Z" fill="#d99b70"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="180" rx="46" ry="54" fill="#e2a67b"/>
+  <!-- Elegant Hair Updo / Bun -->
+  <path d="M 148,175 C 145,130 165,105 200,105 C 235,105 255,130 252,175 C 248,145 235,130 200,130 C 165,130 152,145 148,175 Z" fill="#221105"/>
+  <circle cx="200" cy="98" r="32" fill="#1b0e04"/>
+  <!-- Teacher Glasses (Warm Gold) -->
+  <rect x="170" y="166" width="24" height="16" rx="4" fill="none" stroke="#ffd175" stroke-width="3"/>
+  <rect x="206" y="166" width="24" height="16" rx="4" fill="none" stroke="#ffd175" stroke-width="3"/>
+  <line x1="194" y1="174" x2="206" y2="174" stroke="#ffd175" stroke-width="3"/>
+  <!-- Friendly gentle smile -->
+  <path d="M 190,205 Q 200,214 210,205" fill="none" stroke="#8b4e28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Graduation Cap Tassel / Brooch -->
+  <circle cx="200" cy="305" r="7" fill="url(#goldRing)"/>
+</svg>

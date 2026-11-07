@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffcf7" />
+      <stop offset="50%" stop-color="#f8f1e5" />
+      <stop offset="100%" stop-color="#f0e4d0" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbe29d" />
+      <stop offset="40%" stop-color="#d49b38" />
+      <stop offset="70%" stop-color="#aa7318" />
+      <stop offset="100%" stop-color="#fbe29d" />
+    </linearGradient>
+    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b1e1e" />
+      <stop offset="100%" stop-color="#550f0f" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Parchment Canvas -->
+  <rect x="10" y="10" width="980" height="680" rx="8" fill="url(#bgGrad)" stroke="#c2a47e" stroke-width="2"/>
+
+  <!-- Ornate Outer Border -->
+  <rect x="25" y="25" width="950" height="650" fill="none" stroke="#5c3311" stroke-width="4"/>
+  <rect x="33" y="33" width="934" height="634" fill="none" stroke="#c28532" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <rect x="39" y="39" width="922" height="622" fill="none" stroke="#5c3311" stroke-width="1"/>
+
+  <!-- Corner Ornaments -->
+  <g fill="#5c3311">
+    <!-- Top-Left -->
+    <path d="M 42 42 L 80 42 L 80 46 L 46 46 L 46 80 L 42 80 Z" />
+    <circle cx="56" cy="56" r="5" fill="url(#goldGrad)" />
+    <!-- Top-Right -->
+    <path d="M 958 42 L 920 42 L 920 46 L 954 46 L 954 80 L 958 80 Z" />
+    <circle cx="944" cy="56" r="5" fill="url(#goldGrad)" />
+    <!-- Bottom-Left -->
+    <path d="M 42 658 L 80 658 L 80 654 L 46 654 L 46 620 L 42 620 Z" />
+    <circle cx="56" cy="644" r="5" fill="url(#goldGrad)" />
+    <!-- Bottom-Right -->
+    <path d="M 958 658 L 920 658 L 920 654 L 954 654 L 954 620 L 958 620 Z" />
+    <circle cx="944" cy="644" r="5" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- Organization Header -->
+  <g text-anchor="middle" font-family="'Times New Roman', serif">
+    <text x="500" y="85" font-size="14" letter-spacing="3" fill="#6d4c2b" font-weight="bold">PRESIDENT DIOSDADO MACAPAGAL HIGH SCHOOL (PDMHS) • DEPED DIVISION OFFICE</text>
+    <text x="500" y="105" font-size="11" letter-spacing="1" fill="#886848">REPUBLIC OF THE PHILIPPINES • DEPARTMENT OF EDUCATION / ACCREDITED BODY</text>
+    <line x1="320" y1="118" x2="680" y2="118" stroke="url(#goldGrad)" stroke-width="2" />
+
+    <!-- Certificate Title -->
+    <text x="500" y="165" font-size="34" font-weight="bold" fill="#3a1e05" letter-spacing="4">CERTIFICATE OF ATTENDANCE</text>
+    <text x="500" y="195" font-size="16" font-style="italic" fill="#7a4f27">School Learning Action Cell (SLAC) Session No. 4</text>
+
+    <!-- Presentation Text -->
+    <text x="500" y="240" font-size="15" fill="#5c442d">This certificate is proudly awarded to</text>
+
+    <!-- Recipient -->
+    <text x="500" y="295" font-size="36" font-family="'Georgia', serif" font-weight="bold" fill="#201103" letter-spacing="2">JOHN BRIX G. CORONEJO</text>
+    <line x1="280" y1="310" x2="720" y2="310" stroke="#8b572a" stroke-width="1.5" />
+
+    <!-- Description -->
+    <foreignObject x="150" y="325" width="700" height="110">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:'Times New Roman',serif; font-size:15px; color:#44301c; text-align:center; line-height:1.6;">
+        for dedicated attendance and active involvement in the collaborative session on "Formative Assessment Analytics and Remediation Strategies for Struggling Learners" conducted during Mid-Year INSET.
+      </div>
+    </foreignObject>
+
+    <!-- Date and Venue -->
+    <text x="500" y="475" font-size="14" fill="#5c442d">Given this <strong>December 05, 2025</strong> with credit of <strong>8 In-Service Training Hours</strong>.</text>
+  </g>
+
+  <!-- Golden Seal -->
+  <g transform="translate(160, 520)" filter="url(#shadow)">
+    <!-- Ribbon tails -->
+    <polygon points="-16,40 -26,110 0,90 26,110 16,40" fill="url(#ribbonGrad)" />
+    <!-- Seal Medallion -->
+    <circle cx="0" cy="40" r="42" fill="url(#goldGrad)" stroke="#8e5d0a" stroke-width="2"/>
+    <circle cx="0" cy="40" r="35" fill="none" stroke="#684200" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="0" y="35" text-anchor="middle" font-family="'Times New Roman', serif" font-size="9" font-weight="bold" fill="#4d2f00" letter-spacing="1">OFFICIAL SEAL</text>
+    <text x="0" y="48" text-anchor="middle" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#4d2f00">★ ★ ★</text>
+    <text x="0" y="60" text-anchor="middle" font-family="'Times New Roman', serif" font-size="8" fill="#4d2f00">EXCELLENCE</text>
+  </g>
+
+  <!-- Signatures -->
+  <g text-anchor="middle" font-family="'Times New Roman', serif">
+    <!-- Signer 1 -->
+    <g transform="translate(430, 580)">
+      <!-- Signature flourish script -->
+      <path d="M-80,-25 C-50,-45 -20,-10 10,-35 C30,-15 60,-40 80,-20" fill="none" stroke="#1d2d5a" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="-100" y1="-5" x2="100" y2="-5" stroke="#44301c" stroke-width="1"/>
+      <text x="0" y="15" font-size="14" font-weight="bold" fill="#201103">FERNANDO G. REYES, MAT</text>
+      <text x="0" y="30" font-size="12" fill="#664d33">SLAC Coordinator & Master Teacher II</text>
+    </g>
+
+    <!-- Signer 2 -->
+    <g transform="translate(730, 580)">
+      <!-- Signature flourish script -->
+      <path d="M-70,-30 C-40,-50 -10,-15 25,-40 C45,-20 70,-45 85,-25" fill="none" stroke="#1d2d5a" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="-100" y1="-5" x2="100" y2="-5" stroke="#44301c" stroke-width="1"/>
+      <text x="0" y="15" font-size="14" font-weight="bold" fill="#201103">CORAZON B. DELA CRUZ, CESO VI</text>
+      <text x="0" y="30" font-size="12" fill="#664d33">School Principal IV</text>
+    </g>
+  </g>
+
+  <!-- Verification Footer -->
+  <g font-family="'Courier New', monospace" font-size="10" fill="#7d6144">
+    <text x="45" y="645">DOC NO: PDMHS-SLAC-2025-042</text>
+    <text x="955" y="645" text-anchor="end">AUTHENTICITY VERIFIED • PPST ALIGNED</text>
+  </g>
+</svg>
